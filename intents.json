@@ -1,0 +1,36 @@
+{
+    "intents": [
+      {
+        "tag": "Salamu",
+        "patterns": [
+          "Mambo",
+          "Habari",
+          "Mzima?",
+          "Unaendleaje?",
+          "Niaje",
+          "Vipi"
+        ],
+        "responses": [
+          "Poa karibu nikusidie nini?",
+          "Sijambo karibu nikuhudumie",
+          "Mimi mzima, karibu nikusaidie",
+          "Safi karibu nikusaidie"
+        ]
+      },
+      {
+        "tag": "Kwaheri",
+        "patterns": ["kwaheri", "tutaonana", "ubaki salama","bai"],
+        "responses": [
+          "tutaonana, asante kwa kunitembelea",
+          "uwe na siku njema",
+          "bai, karibu tena"
+        ]
+      },
+      {
+        "tag": "Asante",
+        "patterns": ["asante", "asante sana", "imenisaidia", "nashukuru"],
+        "responses": ["ninafuraha kwa kukuhudumia!", "karibu muda wowote!", "ni jukumu langu"]
+      }
+     
+    ]
+  }
